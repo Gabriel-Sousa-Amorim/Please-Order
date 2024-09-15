@@ -1,0 +1,1 @@
+These directories are needed to test how the program works 
