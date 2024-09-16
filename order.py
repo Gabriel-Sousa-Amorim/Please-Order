@@ -1,7 +1,7 @@
-import os, sys, shutil, re, datetime, json, asarPy
+import os, sys, shutil, re, datetime, json                              
 
 # The sets of extensions separeted by category
-extensions_types : dict = json.loads(open("types.json", "r").read())
+extensions_types : dict = json.loads(open(os.path.abspath(".        /types.json"), "r").read())
 
 class Sorter():
     def __init__(self, path:str="./"):
